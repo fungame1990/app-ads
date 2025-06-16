@@ -1,27 +1,56 @@
+/* General Improvements */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
-  padding: 0 20px;
-  text-align: center;
+  background: #fdfdfd;
+  color: #333;
 }
 
+/* Header */
 header {
-  padding: 40px 0;
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 2rem 1rem;
 }
 
 .subtitle {
-  font-size: 1.2em;
-  color: #777;
+  font-style: italic;
+  color: #ccc;
 }
 
-h1, h2 {
-  color: #222;
+/* Available On Section */
+.available {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f0f0f0;
 }
 
-section {
-  margin: 40px 0;
+.available h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.available-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+}
+
+.store-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0.5rem;
 }
 
 .screenshots img {
@@ -31,18 +60,43 @@ section {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.button {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  margin-top: 10px;
+
+.qr-code {
+  width: 80px;
+  height: auto;
 }
 
-footer {
-  margin-top: 60px;
-  font-size: 0.9em;
-  color: #888;
+/* Sections */
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background: #222;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+
+
