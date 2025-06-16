@@ -19,8 +19,7 @@ header {
 
 .screenshots img {
   width: 400px;
-  margin: 10px;
-  text-align: center;
+  margin: 15px auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -37,7 +36,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   gap: 3rem 4rem;
+   gap: 3rem 3rem;
 }
 .store {
   display: flex;
@@ -65,6 +64,7 @@ header {
 }
 
 section {
+  text-align: center;
   padding: 2rem 1rem;
   max-width: 900px;
   margin: 0 auto;
