@@ -37,7 +37,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   gap: 4rem 4rem;
+   gap: 10rem 4rem;
 }
 .store {
   display: flex;
