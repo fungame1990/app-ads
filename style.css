@@ -26,7 +26,7 @@ header {
 }
 .available {
   text-align: center;
-  padding: 4rem 3rem;
+  padding: 2rem 1rem;
   background: #f0f0f0;
 }
 .available h2 {
@@ -37,7 +37,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   gap: 2rem 2rem;
+   gap: 4rem 4rem;
 }
 .store {
   display: flex;
