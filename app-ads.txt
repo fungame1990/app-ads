@@ -1,6 +1,4 @@
-# AdMob
 google.com, pub-3307462591003129, DIRECT, f08c47fec0942fa0
-# Unity Ads
 unityads.unity3d.com, 1001, DIRECT, a76f67d5f72d4db1
 bidease.com, bidease_seller_20, RESELLER
 freewheel.tv, 1601388, RESELLER
